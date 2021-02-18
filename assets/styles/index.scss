@@ -6,8 +6,9 @@ $cream: #f5f0d7;
 
 body {
   background-color: $dark-grey;
-  color: $terminally-green;
 }
+
+
 
 .right-pane {
   background-color: $cream;
@@ -17,24 +18,28 @@ body {
   height: auto;
 }
 
-section {
-  border: 3px solid $terminally-green;
-}
+// section {
+//   border: 3px solid $terminally-green;
+// }
 
 .content {
   display: flex;
 }
 
 .left-pane {
+  color: $terminally-green;
   width: 25%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  // justify-content: center;
 }
 
 .right-pane {
   width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pfp-lol {
@@ -42,8 +47,8 @@ section {
   width: 150px;
 }
 
-#resume-text {
-  margin-top: 3%;
+.green-text {
+  // margin-top: 3%;
   color: $terminally-green;
 }
 
@@ -57,7 +62,38 @@ section {
   padding-right: 20px;
 }
 
+.center-text {
+  text-align: center;
+}
+
+.right-pane > div {
+  width: 80%;
+  margin-top: 5%;
+}
+
 .nav {
   display: flex;
   justify-content: flex-end;
+  color: $terminally-green;
+}
+
+.left-pane > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.single-project {
+  border: 3px solid red;
+  width: 40%;
 }
