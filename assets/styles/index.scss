@@ -3,6 +3,7 @@
 $dark-grey: #2d2f36;
 $terminally-green: #1e9101;
 $cream: #f5f0d7;
+$white: #fff;
 
 body {
   background-color: $dark-grey;
@@ -11,7 +12,7 @@ body {
 
 
 .right-pane {
-  background-color: $cream;
+  background-color: $white;
 }
 
 .pane {
@@ -87,13 +88,28 @@ body {
   display: flex;
 }
 
-.projects-container {
+.bannana {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .single-project {
-  border: 3px solid red;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 40%;
+  margin: 2%;
+  text-align: center;
+  }
+
+.project-img-container {
+  width: 100%;
+}
+
+.project-img {
+  height: 100%;
+  width: 100%;
 }
