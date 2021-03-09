@@ -1,0 +1,115 @@
+@import '~bootstrap/scss/bootstrap';
+
+$dark-grey: #2d2f36;
+$terminally-green: #1e9101;
+$cream: #f5f0d7;
+$white: #fff;
+
+body {
+  background-color: $dark-grey;
+}
+
+
+
+.right-pane {
+  background-color: $white;
+}
+
+.pane {
+  height: auto;
+}
+
+// section {
+//   border: 3px solid $terminally-green;
+// }
+
+.content {
+  display: flex;
+}
+
+.left-pane {
+  color: $terminally-green;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+}
+
+.right-pane {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pfp-lol {
+  height: 200x;
+  width: 150px;
+}
+
+.green-text {
+  // margin-top: 3%;
+  color: $terminally-green;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
+}
+
+.link-item {
+  padding-right: 20px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.right-pane > div {
+  width: 80%;
+  margin-top: 5%;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  color: $terminally-green;
+}
+
+.left-pane > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills {
+  display: flex;
+}
+
+.bannana {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-project {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  margin: 2%;
+  text-align: center;
+  }
+
+.project-img-container {
+  width: 100%;
+}
+
+.project-img {
+  height: 100%;
+  width: 100%;
+}
