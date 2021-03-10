@@ -4,6 +4,7 @@ $dark-grey: #2d2f36;
 $terminally-green: #1e9101;
 $cream: #f5f0d7;
 $white: #fff;
+$opaqueblack: rgba(00, 00, 00, .05);
 
 body {
   background-color: $dark-grey;
@@ -96,7 +97,9 @@ body {
 }
 
 .single-project {
-  border: 2px solid black;
+  border: 2px;
+  border-radius: 15px;
+  background: $opaqueblack;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -106,7 +109,9 @@ body {
   }
 
 .project-img-container {
-  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  width: 90%;
 }
 
 .project-img {
